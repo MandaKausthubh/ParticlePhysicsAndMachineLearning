@@ -18,6 +18,15 @@ curl -o Electron.hdf5 https://cernbox.cern.ch/remote.php/dav/public-files/FbXw3V
 cd ..
 ```
 
+
+### ⚙️ Creating an Environment
+
+Please note that this uses conda to create and manage the environment.
+```sh
+conda env create -f environment.yml
+conda activate ML4Sci
+```
+
 ## Achievemets:
 
 This successfully replicates the predictions of the paper: **[E2E CMS](End-to-End Physics Event Classification with CMS Open Data: Applying Image-Based Deep Learning to Detector Data for the Direct Classification of Collision Events at the LHC
