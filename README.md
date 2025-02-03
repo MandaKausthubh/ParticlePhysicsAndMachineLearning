@@ -29,10 +29,14 @@ conda env create -f environment.yml
 conda activate ML4Sci
 ```
 
+### 🏋️ Downloading weights directly:
+Please note the  direct weights are available in the file : ModelWeights/BestModelElectronPhoton.pth\
+These can be directly loaded into a pytorch model without the prior architecture and be used.
+
+
 ## Achievemets:
 
-This successfully replicates the predictions of the paper: **[E2E CMS](End-to-End Physics Event Classification with CMS Open Data: Applying Image-Based Deep Learning to Detector Data for the Direct Classification of Collision Events at the LHC
-)** paper. Achieved an AOC Score of **78.93 %** (the paper predicts **79%**). This is one of the best results in this problem setup it the world!!
+This successfully replicates the predictions of the paper: **[E2E CMS](https://arxiv.org/abs/1807.11916)** paper. Achieved an AOC Score of **79.02%** (the paper predicts **79%**). This is one of the best results in this problem setup it the world!!
 
 Acknowledgement: CMS Data CERN
 
