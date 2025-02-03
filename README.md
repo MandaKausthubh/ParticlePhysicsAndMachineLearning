@@ -8,6 +8,8 @@ This repository aims to apply modern **deep learning techniques** to analyze and
 ## ⚡ Getting Started
 
 ### 1️⃣ Clone the Repository
+
+The actual data is extremely large and requires to be downloaded through curl.
 ```sh
 git clone https://github.com/MandaKausthubh/ParticlePhysicsAndMachineLearning.git
 cd ParticlePhysicsAndMachineLearning
